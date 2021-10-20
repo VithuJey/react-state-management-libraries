@@ -99,8 +99,17 @@ body {
     margin-left: 10%;
     margin-right: 10%;
   }
-
+  .card {
+    height: 120px;
+  }
+  .card-logo {
+    margin-left: 40px;
+  }
+  .col {
+    margin-left: 40px;
+  }
   .link-wrap {
+    padding-top: 16px;
     width: 220px;
   }
 }
