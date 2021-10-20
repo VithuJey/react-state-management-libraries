@@ -1,3 +1,5 @@
-# REACT STATE MANAGEMENT LIBRARIES
+# RSML - React State Management Libraries
 
-List of all the state managmenet libraries tha can be used in developing React application.
+List of all the state managmenet libraries used in a React application.
+
+[RSML](https://rsml.netlify.app/)
