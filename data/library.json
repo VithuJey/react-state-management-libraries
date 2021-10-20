@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Redux",
+        "img": "https://react-redux.js.org/img/redux.svg",
+        "doc":"https://redux.js.org/",
+        "git": "https://github.com/reduxjs/redux",
+        "npm": "https://www.npmjs.com/package/redux"
+    },
+    {
+        "title": "React Redux",
+        "img": "https://react-redux.js.org/img/redux.svg",
+        "doc":"https://react-redux.js.org/",
+        "git": "https://github.com/reduxjs/react-redux",
+        "npm": "https://www.npmjs.com/package/react-redux"
+    },
+    {
+        "title": "React Toolkit",
+        "img": "https://react-redux.js.org/img/redux.svg",
+        "doc":"https://redux-toolkit.js.org/",
+        "git": "https://github.com/reduxjs/redux-toolkit",
+        "npm": "https://www.npmjs.com/package/@reduxjs/toolkit"
+    },
+    {
+        "title": "Rematch",
+        "img": "https://rematchjs.org/img/logo.svg",
+        "doc":"https://rematchjs.org/",
+        "git": "https://github.com/rematch/rematch",
+        "npm": "https://www.npmjs.com/package/@rematch/core"
+    },
+    {
+        "title": "MobX",
+        "img": "https://mobx.js.org/assets/mobx.png",
+        "doc":"https://mobx.js.org/README.html",
+        "git": "https://github.com/mobxjs/mobx",
+        "npm": "https://www.npmjs.com/package/mobx"
+    },
+    {
+        "title": "MobX State Tree",
+        "img": "https://mobx-state-tree.js.org/img/favicon.ico",
+        "doc":"https://mobx-state-tree.js.org/intro/welcome",
+        "git": "https://github.com/mobxjs/mobx-state-tree",
+        "npm": "https://www.npmjs.com/package/mobx-state-tree"
+    },
+    {
+        "title": "Recoil",
+        "img": "https://pbs.twimg.com/profile_images/1377116487933030410/kyyHFjc2_400x400.jpg",
+        "doc":"https://recoiljs.org/",
+        "git": "https://github.com/facebookexperimental/Recoil",
+        "npm": "https://www.npmjs.com/package/recoil"
+    }
+]
