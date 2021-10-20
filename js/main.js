@@ -15,7 +15,7 @@ function createCard(library) {
         <div class="link-wrap">
         <a class="link" target="_blank" rel="noopener" href="${library.doc}">Doc</a>
         <a class="link" target="_blank" rel="noopener" href="${library.git}">Git</a>
-        <a class="link" target="_blank" rel="noopener" href="${library.npm}">NPM</a>
+        <a class="link" target="_blank" rel="noopener" href="${library.npm}">npm</a>
         </div>
     </div>
     </div>`;
@@ -54,6 +54,5 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function toTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
