@@ -1,45 +1,38 @@
-[
+[ 
     {
-        "title": "Redux",
-        "img": "https://react-redux.js.org/img/redux.svg",
-        "doc": "https://redux.js.org/",
-        "git": "https://github.com/reduxjs/redux",
-        "npm": "https://www.npmjs.com/package/redux"
+        "title": "AgileTS",
+        "img": "https://agile-ts.org/img/logo.svg",
+        "doc": "https://agile-ts.org/",
+        "git": "https://github.com/agile-ts/agile",
+        "npm": "https://www.npmjs.com/package/@agile-ts/core"
     },
     {
-        "title": "React Redux",
-        "img": "https://react-redux.js.org/img/redux.svg",
-        "doc": "https://react-redux.js.org/",
-        "git": "https://github.com/reduxjs/react-redux",
-        "npm": "https://www.npmjs.com/package/react-redux"
+        "title": "Akita",
+        "img": "https://datorama.github.io/akita/img/akita.svg",
+        "doc": "https://datorama.github.io/akita/",
+        "git": "https://github.com/datorama/akita/",
+        "npm": "https://www.npmjs.com/package/@datorama/akita"
     },
     {
-        "title": "Redux Thunk",
-        "img": "https://react-redux.js.org/img/redux.svg",
-        "doc": "https://redux.js.org/usage/writing-logic-thunks",
-        "git": "https://github.com/reduxjs/redux-thunk",
-        "npm": "https://www.npmjs.com/package/redux-thunk"
+        "title": "Easy Peasy",
+        "img": "https://raw.githubusercontent.com/ctrlplusb/easy-peasy/master/website/docs/assets/logo-small.png",
+        "doc": "https://easy-peasy.vercel.app/",
+        "git": "https://github.com/ctrlplusb/easy-peasy",
+        "npm": "https://www.npmjs.com/package/easy-peasy"
+    }, 
+    {
+        "title": "Hookstate",
+        "img": "https://hookstate.js.org/img/favicon-196.png",
+        "doc": "https://hookstate.js.org/",
+        "git": "https://github.com/avkonst/hookstate",
+        "npm": "https://www.npmjs.com/package/@hookstate/core"
     },
     {
-        "title": "Redux Saga",
-        "img": "https://user-images.githubusercontent.com/4254571/67069175-f38f7200-f19b-11e9-8a90-cf7dd763f86d.png",
-        "doc": "https://redux-saga.js.org/",
-        "git": "https://github.com/redux-saga/redux-saga",
-        "npm": "https://www.npmjs.com/package/redux-saga"
-    },
-    {
-        "title": "Redux Toolkit",
-        "img": "https://react-redux.js.org/img/redux.svg",
-        "doc": "https://redux-toolkit.js.org/",
-        "git": "https://github.com/reduxjs/redux-toolkit",
-        "npm": "https://www.npmjs.com/package/@reduxjs/toolkit"
-    },
-    {
-        "title": "Rematch",
-        "img": "https://rematchjs.org/img/logo.svg",
-        "doc": "https://rematchjs.org/",
-        "git": "https://github.com/rematch/rematch",
-        "npm": "https://www.npmjs.com/package/@rematch/core"
+        "title": "Jotai",
+        "img": "https://jotai.pmnd.rs/static/1613460a8fe76aadc93f99ea510300b0/9d978/ghost_DRAFT.png",
+        "doc": "https://jotai.pmnd.rs/",
+        "git": "https://github.com/pmndrs/jotai",
+        "npm": "https://www.npmjs.com/package/jotai"
     },
     {
         "title": "MobX",
@@ -56,32 +49,11 @@
         "npm": "https://www.npmjs.com/package/mobx-state-tree"
     },
     {
-        "title": "Recoil",
-        "img": "https://pbs.twimg.com/profile_images/1377116487933030410/kyyHFjc2_400x400.jpg",
-        "doc": "https://recoiljs.org/",
-        "git": "https://github.com/facebookexperimental/Recoil",
-        "npm": "https://www.npmjs.com/package/recoil"
-    },
-    {
-        "title": "Zustand",
-        "img": "https://img.stackshare.io/service/11559/zustand.png",
-        "doc": "https://zustand.surge.sh/",
-        "git": "https://github.com/pmndrs/zustand",
-        "npm": "https://www.npmjs.com/package/zustand"
-    },
-    {
-        "title": "Valtio",
-        "img": "https://external-preview.redd.it/oH0tv4vYnHvRrFN7Gn1QsPi85X33n_yXj0qBzA6aAVA.jpg?auto=webp&s=6f2c1593f7b5613f66479164ab8ffe926707692e",
-        "doc": "https://valtio-demo.pmnd.rs/",
-        "git": "https://github.com/pmndrs/valtio",
-        "npm": "https://www.npmjs.com/package/valtio"
-    },
-    {
-        "title": "Jotai",
-        "img": "https://jotai.pmnd.rs/static/1613460a8fe76aadc93f99ea510300b0/9d978/ghost_DRAFT.png",
-        "doc": "https://jotai.pmnd.rs/",
-        "git": "https://github.com/pmndrs/jotai",
-        "npm": "https://www.npmjs.com/package/jotai"
+        "title": "React Redux",
+        "img": "https://react-redux.js.org/img/redux.svg",
+        "doc": "https://react-redux.js.org/",
+        "git": "https://github.com/reduxjs/react-redux",
+        "npm": "https://www.npmjs.com/package/react-redux"
     },
     {
         "title": "React Sweet State",
@@ -91,25 +63,53 @@
         "npm": "https://www.npmjs.com/package/react-sweet-state"
     },
     {
-        "title": "Hookstate",
-        "img": "https://hookstate.js.org/img/favicon-196.png",
-        "doc": "https://hookstate.js.org/",
-        "git": "https://github.com/avkonst/hookstate",
-        "npm": "https://www.npmjs.com/package/@hookstate/core"
+        "title": "Recoil",
+        "img": "https://pbs.twimg.com/profile_images/1377116487933030410/kyyHFjc2_400x400.jpg",
+        "doc": "https://recoiljs.org/",
+        "git": "https://github.com/facebookexperimental/Recoil",
+        "npm": "https://www.npmjs.com/package/recoil"
     },
     {
-        "title": "Akita",
-        "img": "https://datorama.github.io/akita/img/akita.svg",
-        "doc": "https://datorama.github.io/akita/",
-        "git": "https://github.com/datorama/akita/",
-        "npm": "https://www.npmjs.com/package/@datorama/akita"
+        "title": "Redux",
+        "img": "https://react-redux.js.org/img/redux.svg",
+        "doc": "https://redux.js.org/",
+        "git": "https://github.com/reduxjs/redux",
+        "npm": "https://www.npmjs.com/package/redux"
     },
     {
-        "title": "AgileTS",
-        "img": "https://agile-ts.org/img/logo.svg",
-        "doc": "https://agile-ts.org/",
-        "git": "https://github.com/agile-ts/agile",
-        "npm": "https://www.npmjs.com/package/@agile-ts/core"
+        "title": "Redux Saga",
+        "img": "https://user-images.githubusercontent.com/4254571/67069175-f38f7200-f19b-11e9-8a90-cf7dd763f86d.png",
+        "doc": "https://redux-saga.js.org/",
+        "git": "https://github.com/redux-saga/redux-saga",
+        "npm": "https://www.npmjs.com/package/redux-saga"
+    },
+    {
+        "title": "Redux Thunk",
+        "img": "https://react-redux.js.org/img/redux.svg",
+        "doc": "https://redux.js.org/usage/writing-logic-thunks",
+        "git": "https://github.com/reduxjs/redux-thunk",
+        "npm": "https://www.npmjs.com/package/redux-thunk"
+    },
+    {
+        "title": "Redux Toolkit",
+        "img": "https://react-redux.js.org/img/redux.svg",
+        "doc": "https://redux-toolkit.js.org/",
+        "git": "https://github.com/reduxjs/redux-toolkit",
+        "npm": "https://www.npmjs.com/package/@reduxjs/toolkit"
+    },
+    {
+        "title": "Rematch",
+        "img": "https://rematchjs.org/img/logo.svg",
+        "doc": "https://rematchjs.org/",
+        "git": "https://github.com/rematch/rematch",
+        "npm": "https://www.npmjs.com/package/@rematch/core"
+    },
+    {
+        "title": "Valtio",
+        "img": "https://external-preview.redd.it/oH0tv4vYnHvRrFN7Gn1QsPi85X33n_yXj0qBzA6aAVA.jpg?auto=webp&s=6f2c1593f7b5613f66479164ab8ffe926707692e",
+        "doc": "https://valtio-demo.pmnd.rs/",
+        "git": "https://github.com/pmndrs/valtio",
+        "npm": "https://www.npmjs.com/package/valtio"
     },
     {
         "title": "XState",
@@ -119,10 +119,10 @@
         "npm": "https://www.npmjs.com/package/xstate"
     },
     {
-        "title": "Easy Peasy",
-        "img": "https://raw.githubusercontent.com/ctrlplusb/easy-peasy/master/website/docs/assets/logo-small.png",
-        "doc": "https://easy-peasy.vercel.app/",
-        "git": "https://github.com/ctrlplusb/easy-peasy",
-        "npm": "https://www.npmjs.com/package/easy-peasy"
+        "title": "Zustand",
+        "img": "https://img.stackshare.io/service/11559/zustand.png",
+        "doc": "https://zustand.surge.sh/",
+        "git": "https://github.com/pmndrs/zustand",
+        "npm": "https://www.npmjs.com/package/zustand"
     }
 ]
