@@ -106,7 +106,7 @@
     },
     {
         "title": "Valtio",
-        "img": "https://external-preview.redd.it/oH0tv4vYnHvRrFN7Gn1QsPi85X33n_yXj0qBzA6aAVA.jpg?auto=webp&s=6f2c1593f7b5613f66479164ab8ffe926707692e",
+        "img": "../img/valtio.png",
         "doc": "https://valtio-demo.pmnd.rs/",
         "git": "https://github.com/pmndrs/valtio",
         "npm": "https://www.npmjs.com/package/valtio"
