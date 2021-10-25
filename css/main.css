@@ -109,10 +109,6 @@ body {
   border-radius: 5px;
 }
 
-.top-button:hover {
-  background-color: #808080;
-}
-
 .footer {
   display: flex;
   flex-direction: row;
@@ -163,6 +159,10 @@ body {
   .container {
     margin-left: 15%;
     margin-right: 15%;
+  }
+
+  .top-button:hover {
+    background-color: #808080;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
