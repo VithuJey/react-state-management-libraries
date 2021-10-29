@@ -1,6 +1,9 @@
+// list of libraries
+let libraries = [""];
+
 // create library card
 function createCard(library) {
-  var card = document.createElement("div");
+  const card = document.createElement("div");
   card.className = "card";
   card.innerHTML = `<img
     class="card-logo"
@@ -22,21 +25,41 @@ function createCard(library) {
   return card;
 }
 
+// append library list
+function appendList(libraryList) {
+  const libNode = document.getElementById("libContain");
+  libNode.innerHTML = "";
+  libraryList.map((library) => {
+    libNode.appendChild(createCard(library));
+  });
+}
+
 // populate card with data
 async function populateCard() {
   try {
-    var data = await fetch("../data/library.json");
-    var libraries = await data.json();
-
-    libraries.map((library) => {
-      document.getElementById("libContain").appendChild(createCard(library));
-    });
+    const data = await fetch("../data/library.json");
+    libraries = await data.json();
+    appendList(libraries);
   } catch (error) {
     console.log("error ", error);
   }
 }
 
 populateCard();
+
+// handles search field
+function handleSearch(ev) {
+  let searchWord = ev.target.value;
+
+  let searchRes = libraries.filter((value) =>
+    value.title.toLowerCase().includes(searchWord.toLowerCase().trim())
+  );
+  appendList(searchRes);
+}
+
+// liten on events of input field
+const searchWord = document.getElementById("searchField");
+searchWord.addEventListener("input", handleSearch);
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {

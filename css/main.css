@@ -34,7 +34,31 @@ body {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 72%, #e1e1e1 72%);
 }
 
-.container {
+.search-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#searchField {
+  width: 180px;
+  height: 35px;
+  padding: 10px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  text-transform: capitalize;
+
+  border: 2px solid #808080;
+  border-radius: 20px;
+}
+
+#libContain {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -136,7 +160,7 @@ body {
     font-size: 32px;
     font-weight: 600;
   }
-  .container {
+  #libContain {
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -156,7 +180,7 @@ body {
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .container {
+  #libContain {
     margin-left: 15%;
     margin-right: 15%;
   }
@@ -167,7 +191,7 @@ body {
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .container {
+  #libContain {
     margin-left: 25%;
     margin-right: 25%;
   }
