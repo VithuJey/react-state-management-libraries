@@ -27,7 +27,7 @@ function createCard(library) {
 
 // append library list
 function appendList(libraryList) {
-  const libNode = document.getElementById("libContain");
+  const libNode = document.getElementById("libCtn");
   libNode.innerHTML = "";
   libraryList.map((library) => {
     libNode.appendChild(createCard(library));
@@ -60,6 +60,16 @@ function handleSearch(ev) {
 // liten on events of input field
 const searchWord = document.getElementById("searchField");
 searchWord.addEventListener("input", handleSearch);
+
+// reverse the list
+function reverseList() {
+  revLibraries = libraries.reverse();
+  appendList(revLibraries);
+}
+
+// add reverse function to revButton onclick
+const reverseButton = document.getElementById("revBtn");
+reverseButton.onclick = reverseList;
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
