@@ -1,5 +1,7 @@
 // list of libraries
-let libraries = [""];
+let libraries = [];
+// processed libraries - searched/reversed
+let proLibs = [];
 
 // create library card
 function createCard(library) {
@@ -39,6 +41,7 @@ async function populateCard() {
   try {
     const data = await fetch("../data/library.json");
     libraries = await data.json();
+    proLibs = libraries;
     appendList(libraries);
   } catch (error) {
     console.log("error ", error);
@@ -50,10 +53,12 @@ populateCard();
 // handles search field
 function handleSearch(ev) {
   let searchWord = ev.target.value;
+  if (searchWord === "") proLibs = libraries;
 
-  let searchRes = libraries.filter((value) =>
+  let searchRes = proLibs.filter((value) =>
     value.title.toLowerCase().includes(searchWord.toLowerCase().trim())
   );
+  proLibs = searchRes;
   appendList(searchRes);
 }
 
@@ -63,7 +68,7 @@ searchWord.addEventListener("input", handleSearch);
 
 // reverse the list
 function reverseList() {
-  revLibraries = libraries.reverse();
+  revLibraries = proLibs.reverse();
   appendList(revLibraries);
 }
 
